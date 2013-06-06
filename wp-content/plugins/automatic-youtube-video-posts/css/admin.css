@@ -1,0 +1,48 @@
+/**************************************************************************************************/
+/*
+/*		File:
+/*			styles.css
+/*		Description:
+/*			This file contains CSS for the administrative aspects of the plugin.
+/*		Date:
+/*			Added on November 3rd 2010
+/*		Copyright:
+/*			Copyright (c) 2009 Matthew Praetzel.
+/*		License:
+/*			License:
+/*			This software is licensed under the terms of the GNU General Public License v3
+/*			as published by the Free Software Foundation. You should have received a copy of of
+/*			the GNU General Public License along with this software. In the event that you
+/*			have not, please visit: http://www.gnu.org/licenses/gpl-3.0.txt
+/*
+/**************************************************************************************************/
+
+/*-----------------------
+	Admin
+-----------------------*/
+#tern_wp_youtube_videos label, #tern_wp_youtube_videos input, #tern_wp_youtube_videos select { font-size:14px; }
+#tern_wp_youtube_videos div.inside label { display:inline-block;margin:0 10px 10px 0;font-weight:bold; }
+#tern_wp_youtube_videos input { width:100%;line-height:22px;margin-bottom:10px; }
+#tern_wp_youtube_videos div.inside span { font-size:10px;font-weight:normal; }
+
+.tern_wp_youtube_output_list { margin:1em 0;padding:0 0 0 40px;list-style:outside; }
+/*-----------------------
+	Forms
+-----------------------*/
+.WP_ayvpp_styling .add_item { display:none; }
+#WP_ayvpp_add_item_form { padding:40px; }
+#WP_ayvpp_add_item_form fieldset { display:inline;width:100%;border:0;margin:0;padding:0;vertical-align:top; }
+#WP_ayvpp_add_item_form fieldset.half { width:48%; }
+#WP_ayvpp_add_item_form label { display:block;margin:20px 0 4px; }
+#WP_ayvpp_add_item_form input { width:100%;padding:2px 0;font-size:20px; }
+#WP_ayvpp_add_item_form input.chk { width:auto; }
+#WP_ayvpp_add_item_form input.btn { width:auto;margin-top:20px;padding:3px 10px; }
+#wpbody-content .chk { width:auto;margin:0 4px 0 0; }
+.WP_ayvpp_styling pre { word-wrap:break-word; }
+.WP_ayvpp_styling table textarea { width:100%;height:100px; }
+/*-----------------------
+	Errors
+-----------------------*/
+.tern_errors, .tern_alerts { background:#ffebe8;border:1px solid #c00;margin:10px 15px 10px 0;padding:0 .6em;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;color:#c00; }
+.tern_alerts { background:#cbffcd;border:1px solid #390;color:#030; }
+.req { color:#ff0000; }
